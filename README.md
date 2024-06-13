@@ -1,15 +1,24 @@
-# AI-News-App
 
-# Voice Controlled React News Application - Alan AI Voice Assistant
+# Project Title
 
-### [Live Site](https://alan-news-app.netlify.app/)
+AI-News-App.
 
-![Voice Controlled React News Application](https://i.ibb.co/SVyK6Nh/Screenshot-2020-08-03-at-21-24-23.png)
+## Voice Controlled React News Application - Alan AI Voice Assistant
 
-## Introduction
-This is a code repository for the corresponding video tutorial. 
 
-In this video, we're going to build a Conversational Voice Controlled React News Application using Alan AI. Alan AI is a revolutionary speech recognition software that allows you to add voice capabilities to your applications. It allows you to control absolutely everything in the app using your voice. Another huge benefit is that it's extremely easy to integrate it. We'll do it together in this video and afterward, you'll be able to create your own voice-controlled apps.  
+## Detailed Description:
 
-Setup:
-- run ```npm i && npm start``` to start development server
+This project involves creating a news application using React, enhanced with voice control capabilities powered by Alan AI. The application will allow users to interact with the news app using voice commands, making it a hands-free experience. Alan AI, a cutting-edge speech recognition software, will be integrated to handle voice commands, enabling users to navigate, search, and control the application entirely through their voice.
+## Key Features:
+
+- **Voice Commands Integration**:Users can control various aspects of the application through voice commands. For instance, they can request the latest news, search for news on specific topics, or navigate through different categories.
+
+- **Real-time News Updates**: The application will fetch and display the latest news articles from various sources, ensuring that users stay up-to-date with current events.
+
+- **User-Friendly Interface**:The React-based user interface will be designed to be intuitive and easy to navigate, ensuring a seamless user experience.
+## Languages and Frameworks used:
+- React.js
+- HTML
+- CSS
+- Javascript
+- Alan AI(speech recognition software)
