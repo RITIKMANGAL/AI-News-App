@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'ce65cd8abf214e5ea075c32e4cac5701'; // Replace with your NewsAPI key
+const API_KEY = 'REACT_APP_NEWS_API_KEY'; // Replace with your NewsAPI key
 const BASE_URL = 'https://newsapi.org/v2';
 
 /**
