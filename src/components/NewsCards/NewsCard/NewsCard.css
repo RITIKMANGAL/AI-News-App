@@ -1,0 +1,56 @@
+/* Main container for the news cards */
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid for cards */
+  gap: 1.5rem;
+  padding: 2rem 1rem; /* Adjust padding for spacing */
+  background: #f7f9fc;
+  max-width: 100%; /* Ensures the container spans full width */
+  margin: 0 auto;
+  box-sizing: border-box; /* Prevents overflow caused by padding */
+}
+
+/* Responsive single column layout for smaller screens */
+@media (max-width: 768px) {
+  .news-cards {
+    grid-template-columns: 1fr; /* Single column for mobile */
+  }
+}
+
+/* Styling for each individual news card */
+.news-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+}
+
+/* Load More button styles */
+.load-more {
+  display: block;
+  width: 200px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.load-more:hover {
+  background-color: #0056b3;
+}
+
+.load-more:active {
+  background-color: #003f7f;
+}
